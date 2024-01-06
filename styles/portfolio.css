@@ -8,7 +8,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+    margin: 0px 200px;
+}
 
 .nav-tittle {
     color: var(--Dark-01, #181818);
@@ -41,7 +42,24 @@ nav a {
     background: #FD6E0A;
     border: 0px;
     font-size: 20px;
-    color:white;
+    color: white;
     font-weight: 700;
     padding: 15px 35px;
+
+    /* header related styles */
 }
+
+.header {
+    background-color: #FFF8F3;   
+
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 500px;
+}
+
