@@ -66,7 +66,8 @@ nav a {
     background-image: url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-
+    background-image: url("..//images/developer.png");
+    background-position: bottom left;
 }
 
 .banner {
@@ -192,27 +193,33 @@ hr {
     font-size: 16px;
     font-weight: 400;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer style */
-footer{
+footer {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     margin-top: 90px;
     padding: 130px 200px;
 }
-.footer-colum{
+
+.footer-colum {
     width: 50%;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 25px;
 
 }
-.contact input[type="text"], .contact input[type="email"],
-textarea{
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
